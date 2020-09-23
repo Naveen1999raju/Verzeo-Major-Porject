@@ -1,0 +1,159 @@
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 25px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+   color: white;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.topnav a.active {
+  color: white;
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ededed; /*#c3c3c3;*/
+}
+
+ .formover{
+  position: fixed;
+  margin-top: 10%;
+  margin-left: 37%;
+  max-width: 60%;
+  max-height: 60%;
+  padding: 20px 15px 20px 15px;
+  background-color: white;
+ }
+
+ .formhead{
+  text-align: center;
+  font-size: 18px;
+  font-family: National-Book,Helvetica,sans-serif; 
+ }
+
+ form{
+  display: block;
+ }
+
+ .formblock{
+  transition: opacity 350ms;
+  line-height: 28px;
+  padding-right: 7px;
+ }
+
+ input{
+  height: 40px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#email{
+  width: 100%;
+  height: 40px;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+
+select{
+  height: 40px;
+  width: 100%;
+  margin-left: 5px;
+  margin-right: 7px;
+  text-align: center;
+}
+
+#Phone{
+  margin-top: 10px;
+  width: 98%;
+}
+option{
+  text-align: center;
+}
+
+#text{
+  width: 100%;
+  margin-right: 15px;
+  margin-left: 3px;
+}
+#Submit{
+  width: 100%;
+  height: 30%;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin-top: 550px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  height: 60px;
+  color: white;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #99A3A4;
+}
+
